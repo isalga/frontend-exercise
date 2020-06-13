@@ -21,14 +21,14 @@ Instructions
 Requirements
 ------------
 
-- You *MUST* write your test with modern HTML and JS (ES6 or ES7, so no TypeScript, CoffeeScript or other superset languages)
-- You *COULD* use javascript frameworks (React, Vue, etc..)
-- Your code *MUST* be in english (variable names, comments etc..)
+X- You *MUST* write your test with modern HTML and JS (ES6 or ES7, so no TypeScript, CoffeeScript or other superset languages)
+X- You *COULD* use javascript frameworks (React, Vue, etc..)
+X- Your code *MUST* be in english (variable names, comments etc..)
 - You *MAY* comment your code wherever you feel necessary
-- You *SHOULD* use webpack
+X- You *SHOULD* use webpack
 - You *MAY* design something nice, but you *COULD* also copy your designs from our [website](https://www.hellofresh.com/recipes/)
 - You *SHOULD NOT* use jQuery, Twitter's Bootstrap or any other CSS framework
-- You *SHOULD* use a CSS preprocessor or postprocessor, when you use CSS
+X- You *SHOULD* use a CSS preprocessor or postprocessor, when you use CSS
 - You *COULD* use CSS-in-JS
 - You *SHOULD* use some kind of server to serve your code, something like [http-server](https://github.com/indexzero/http-server) would do
 - You *SHOULD NOT* commit any external libraries and files into PR
@@ -40,8 +40,8 @@ In this test we will build a recipe review area.
 
 It will contain two pages:
 
-- [Login page](#login-page)
-- [Recipe review page](#recipe-review-page)
+X- [Login page](#login-page)
+X- [Recipe review page](#recipe-review-page)
 
 #### Login page
 
