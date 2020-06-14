@@ -5,25 +5,16 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
   } from "react-router-dom";
 import Login from "./pages/Login";
 import Recipes from "./pages/Recipes";
+import Navbar from "./components/Navbar";
 
 const App = () => {
     return (
         <Router>
           <div>
-            <nav>
-              <ul>
-                <li>
-                  <Link to='/login'>login</Link>
-                </li>
-                <li>
-                  <Link to='/recipes'>recipes</Link>
-                </li>
-              </ul>
-            </nav>
+            <Navbar />
             <div className="page-container">
               <Switch>
                 <Route exact path='/login'>
