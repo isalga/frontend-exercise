@@ -1,3 +1,18 @@
+## How to run
+
+run the commands:
+
+### `yarn install`
+
+and after all node packages are installed: 
+
+### `yarn start-dev`
+
+or
+
+### `yarn build && yarn start-prod`
+
+
 HelloFreshGO - Front-end Exercise
 =============================================
 
