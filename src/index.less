@@ -1,11 +1,12 @@
-@nice-blue: #5B83AD;
-@light-blue: @nice-blue + #111;
+@import './theme/index.less';
 
-.header {
-  color: @light-blue;
+html, body {
+  margin: 0;
 }
 
 .page-container {
   display: flex;
   justify-content: center;
+  background-color: @bg-color;
+  padding: 2.5em 0;
 }

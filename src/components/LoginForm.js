@@ -1,3 +1,4 @@
+import './LoginForm.less';
 import React from 'react';
 
 const LoginForm = () => {
@@ -5,11 +6,11 @@ const LoginForm = () => {
     const [password, setPassword] = React.useState('');
 
     const validate = () => {
-        //refactor
         return email.length > 0 && password.length > 0;
     };
 
     const onSubmit = (e) => {
+        e.preventDefault();
     };
 
     return (

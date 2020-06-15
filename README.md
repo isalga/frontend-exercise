@@ -27,11 +27,11 @@ X- Your code *MUST* be in english (variable names, comments etc..)
 - You *MAY* comment your code wherever you feel necessary
 X- You *SHOULD* use webpack
 - You *MAY* design something nice, but you *COULD* also copy your designs from our [website](https://www.hellofresh.com/recipes/)
-- You *SHOULD NOT* use jQuery, Twitter's Bootstrap or any other CSS framework
+X- You *SHOULD NOT* use jQuery, Twitter's Bootstrap or any other CSS framework
 X- You *SHOULD* use a CSS preprocessor or postprocessor, when you use CSS
 - You *COULD* use CSS-in-JS
-- You *SHOULD* use some kind of server to serve your code, something like [http-server](https://github.com/indexzero/http-server) would do
-- You *SHOULD NOT* commit any external libraries and files into PR
+X- You *SHOULD* use some kind of server to serve your code, something like [http-server](https://github.com/indexzero/http-server) would do
+X- You *SHOULD NOT* commit any external libraries and files into PR
 
 Exercise
 --------
@@ -40,8 +40,8 @@ In this test we will build a recipe review area.
 
 It will contain two pages:
 
-X- [Login page](#login-page)
-X- [Recipe review page](#recipe-review-page)
+- [Login page](#login-page)
+- [Recipe review page](#recipe-review-page)
 
 #### Login page
 

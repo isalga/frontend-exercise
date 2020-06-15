@@ -1,3 +1,13 @@
-.layout-container {
-    max-width: 960px;
+@import '../theme/index.less';
+
+@media (min-width: @breakpoint-tablet) {
+    .layout-container {
+        max-width: @breakpoint-tablet;
+    }
+}
+
+@media (min-width: @breakpoint-desktop) {
+    .layout-container {
+        max-width: @breakpoint-desktop;
+    }
 }

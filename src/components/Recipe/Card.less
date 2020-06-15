@@ -1,3 +1,42 @@
+@import '../../theme/index.less';
+
 .card {
     flex: 0 1 calc(25% - 1em);
+    border: solid 1px @border-color;
+    background-color: white;
+    margin-bottom: 2.5em;
+    > img {
+        width: 100%;
+        height: 150px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5em 1.25em;
+        .hearth {
+            color: #aab8c2;
+            cursor: pointer;
+            align-self: center;
+            &:hover {
+                color: grey;
+            }
+            &.favorited {
+                color: #e2264d;
+            }
+        }
+        
+        .rating-star {
+            color: #aab8c2;
+            &.selected {
+                color: gold;
+            }
+        }
+    }
+}
+
+@media (max-width: @breakpoint-desktop) {
+    .card {
+        flex: 0 1 calc(100%);
+    }
 }
