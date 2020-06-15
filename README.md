@@ -8,9 +8,13 @@ and after all node packages are installed:
 
 ### `yarn start-dev`
 
+Open http://localhost:8080 to view it in the browser.
+
 or
 
 ### `yarn build && yarn start-prod`
+
+Open http://localhost:3000 to view it in the browser.
 
 
 HelloFreshGO - Front-end Exercise
